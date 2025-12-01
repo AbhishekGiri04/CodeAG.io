@@ -1,4 +1,4 @@
-<h1 align="center">🌐 CodeAG.io — Professional AI & ML Developer Portfolio</h1>
+<h1 align="center">🌐 Agnix — Professional AI & ML Developer Website</h1>
 
 <p align="center">
   🚀 Modern interactive portfolio website showcasing AI/ML expertise, innovative projects, and professional achievements with stunning 3D visuals and responsive design.
@@ -17,7 +17,7 @@
 
 ## 📖 About
 
-CodeAG.io is the official website of **Abhishek Giri**, an AI & ML Developer and Full-Stack Development Enthusiast. This platform showcases cutting-edge technology expertise, innovative projects, and professional achievements in artificial intelligence and machine learning.
+Agnix is the official website of **Abhishek Giri**, an AI & ML Developer and Full-Stack Development Enthusiast. This platform showcases cutting-edge technology expertise, innovative projects, and professional achievements in artificial intelligence and machine learning.
 
 <br>
 
@@ -99,7 +99,7 @@ CodeAG.io is the official website of **Abhishek Giri**, an AI & ML Developer and
 ## 📁 Project Directory Structure
 
 ```
-CodeAG.io/
+Agnix/
 ├── 📂 assets/                      # 🎨 Static assets and resources
 │   ├── 📄 favicon.738ee8b0.svg     # 🔖 Website favicon
 │   ├── 📄 index.034a5313.css       # 🎨 Compiled CSS styles
@@ -129,6 +129,8 @@ CodeAG.io/
 │   └── 📄 kda.mp4                  # 🎬 Background video texture
 ├── 📄 CNAME                        # 🌐 Custom domain configuration
 ├── 📄 index.html                   # 🏠 Main HTML entry point
+├── 📄 netlify.toml                 # ⚙️ Netlify deployment config
+├── 📄 _redirects                   # 🔄 Netlify redirects config
 ├── 📄 .gitignore                   # 🚫 Git ignore rules
 └── 📄 README.md                    # 📖 Project documentation
 ```
@@ -163,8 +165,8 @@ CodeAG.io/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/AbhishekGiri04/CodeAG.io.git
-   cd CodeAG.io
+   git clone https://github.com/AbhishekGiri04/Agnix.git
+   cd Agnix
    ```
 
 2. Start a local server:
@@ -195,7 +197,44 @@ CodeAG.io/
 
 ## 🌐 Live Demo
 
-Visit the live website: **[CodeAG.io](https://codeag.io)**
+Visit the live website: **[Agnix](https://agnix.netlify.app)**
+
+<br>
+
+---
+
+## 🚀 Deploy to Netlify
+
+### One-Click Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/AbhishekGiri04/Agnix)
+
+### Manual Deployment
+
+1. **Connect Repository:**
+   - Login to [Netlify](https://app.netlify.com)
+   - Click "Add new site" → "Import an existing project"
+   - Connect your GitHub account
+   - Select `Agnix` repository
+
+2. **Build Settings:**
+   ```
+   Branch to deploy: main
+   Base directory: (leave empty)
+   Build command: (leave empty)
+   Publish directory: .
+   ```
+
+3. **Deploy:**
+   - Click "Deploy site"
+   - Your site will be live in seconds!
+
+### Custom Domain Setup
+
+1. Go to Site settings → Domain management
+2. Add custom domain: `agnix.netlify.app`
+3. Configure DNS records as instructed
+4. Enable HTTPS (automatic)
 
 <br>
 
@@ -313,6 +352,6 @@ Visit the live website: **[CodeAG.io](https://codeag.io)**
 
 <div align="center">
 
-**© 2025 CodeAG.io - Abhishek Giri. All Rights Reserved.**
+**© 2025 Agnix - Abhishek Giri. All Rights Reserved.**
 
 </div>
