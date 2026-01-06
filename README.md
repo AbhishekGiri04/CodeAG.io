@@ -11,6 +11,7 @@
   <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white"/>
   <img src="https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white"/>
 </p>
+
 <br>
 
 ---
@@ -43,7 +44,7 @@ Agnix is the official website of **Abhishek Giri**, an AI & ML Developer and Ful
 ✅  **Smooth scrolling experience** with custom scroll-based animations  
 ✅  **Theme switcher** for dark and light mode preferences  
 ✅  **Professional sections** with modern card-based layouts  
-✅  **Detailed project showcases** with 6 major AI/ML and full-stack projects  
+✅  **Detailed project showcases** with 5 major AI/ML and full-stack projects  
 ✅  **Enhanced contact section** with 7 professional networking links  
 ✅  **Optimized performance** with compressed assets and efficient loading
 
@@ -101,13 +102,14 @@ Agnix is the official website of **Abhishek Giri**, an AI & ML Developer and Ful
 ```
 Agnix/
 ├── 📂 assets/                      # 🎨 Static assets and resources
-│   ├── 📄 index.034a5313.css       # 🎨 Compiled CSS styles
-│   └── 📄 index.b8dab8e6.js        # ⚡ Compiled JavaScript bundle
+│   ├── 📄 index.034a5313.css       # 🎨 Compiled CSS styles (cache-busted)
+│   └── 📄 index.b8dab8e6.js        # ⚡ Compiled JavaScript bundle (cache-busted)
 ├── 📂 docs/                        # 📸 Documentation and screenshots
-│   ├── 📄 Home_Page.png            # 🏠 Homepage screenshot
-│   ├── 📄 About_Page.png           # ℹ️ About section screenshot
-│   ├── 📄 Work_Page.png            # 💼 Work section screenshot
-│   └── 📄 Contact.png              # 📞 Contact section screenshot
+│   ├── 📄 LoadingPage.png          # ⏳ Loading screen screenshot
+│   ├── 📄 HomePage.png             # 🏠 Homepage screenshot
+│   ├── 📄 AboutPage.png            # ℹ️ About section screenshot
+│   ├── 📄 MyWork.png               # 💼 Work section screenshot
+│   └── 📄 ContactPage.png          # 📞 Contact section screenshot
 ├── 📂 draco/                       # 🗜️ 3D model compression library
 │   ├── 📂 gltf/                    # 📦 GLTF-specific decoders
 │   │   ├── 📄 draco_decoder.js     # 🔓 Draco decoder for GLTF
@@ -122,27 +124,27 @@ Agnix/
 ├── 📂 models/                      # 🎭 3D models and assets
 │   ├── 📄 Finale Version 16.glb    # 🎨 Main 3D scene model
 │   └── 📄 New Boko.glb             # 🎪 Additional 3D model
-├── 📂 social/                      # 🌐 Social media assets
-│   └── 📄 screenshot.png           # 📸 Social preview image
 ├── 📂 textures/                    # 🖼️ Texture files and videos
 │   └── 📄 kda.mp4                  # 🎬 Background video texture
-├── 📄 _redirects                   # 🔄 Netlify redirects config
-├── 📄 CNAME                        # 🌐 Custom domain configuration
 ├── 📄 index.html                   # 🏠 Main HTML entry point
-├── 📄 netlify.toml                 # ⚙️ Netlify deployment config
+├── 📄 vercel.json                  # ⚙️ Vercel deployment config
 ├── 📄 .gitignore                   # 🚫 Git ignore rules
 └── 📄 README.md                    # 📖 Project documentation
 ```
+
 <br>
+
+---
 
 ## 📸 Preview Images
 
 | 📍 Section                  | 📸 Screenshot                                              |
 |:----------------------------|:-----------------------------------------------------------|
-| Home Page                   | ![Home Page](docs/Home_Page.png)                   |
-| About Section               | ![About Page](docs/About_Page.png)          |
-| Work Portfolio              | ![Work Page](docs/Work_Page.png)    |
-| Contact Information         | ![Contact](docs/Contact.png)    |
+| Loading Screen              | ![Loading Page](docs/LoadingPage.png)          |
+| Home Page                   | ![Home Page](docs/HomePage.png)                   |
+| About Section               | ![About Page](docs/AboutPage.png)          |
+| Work Portfolio              | ![Work Page](docs/MyWork.png)    |
+| Contact Information         | ![Contact](docs/ContactPage.png)    |
 
 <br>
 
@@ -196,44 +198,44 @@ Agnix/
 
 ## 🌐 Live Demo
 
-Visit the live website: **[Agnix](https://agnix.netlify.app)**
+Visit the live website: **[Agnix](https://agnix.vercel.app)**
 
 <br>
 
 ---
 
-## 🚀 Deploy to Netlify
+## 🚀 Deploy to Vercel
 
 ### One-Click Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/AbhishekGiri04/Agnix)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/AbhishekGiri04/Agnix)
 
 ### Manual Deployment
 
 1. **Connect Repository:**
-   - Login to [Netlify](https://app.netlify.com)
-   - Click "Add new site" → "Import an existing project"
-   - Connect your GitHub account
+   - Login to [Vercel](https://vercel.com)
+   - Click "Add New" → "Project"
+   - Import your GitHub repository
    - Select `Agnix` repository
 
 2. **Build Settings:**
    ```
-   Branch to deploy: main
-   Base directory: (leave empty)
-   Build command: (leave empty)
-   Publish directory: .
+   Framework Preset: Other
+   Build Command: (leave empty)
+   Output Directory: .
+   Install Command: (leave empty)
    ```
 
 3. **Deploy:**
-   - Click "Deploy site"
+   - Click "Deploy"
    - Your site will be live in seconds!
 
 ### Custom Domain Setup
 
-1. Go to Site settings → Domain management
-2. Add custom domain: `agnix.netlify.app`
+1. Go to Project Settings → Domains
+2. Add your custom domain
 3. Configure DNS records as instructed
-4. Enable HTTPS (automatic)
+4. HTTPS is enabled automatically
 
 <br>
 
@@ -247,6 +249,7 @@ Visit the live website: **[Agnix](https://agnix.netlify.app)**
 * **Finale Version 16.glb** — Primary 3D model with optimized geometry and textures
 * **draco/** — 3D model compression library for efficient loading and rendering
 * **textures/kda.mp4** — Background video texture for immersive experience
+* **vercel.json** — Vercel configuration for SPA routing
 
 <br>
 
@@ -263,22 +266,40 @@ Visit the live website: **[Agnix](https://agnix.netlify.app)**
 ### ℹ️ About Me
 - Professional background and expertise with elegant styling
 - AI/ML specialization and achievements
-- Competition success and certifications
+- Competition success and certifications (SAARTHI Finalist, MariTHON Finalist, Amazon ML Challenge Global Rank 234)
 - Technical skills and career objectives
 
 ### 💼 My Work
-- CodeSphere – Real-Time Collaborative Code Editor Platform
-- Maritime Intelligence Platform – AI-Powered SOF Document Processing
-- SmartAssist Home – IoT Accessibility & Automation Ecosystem
-- CollabMeet – Real-Time Video Conferencing & Collaboration Suite
-- Navion – AI-Powered Smart Navigation and Discovery Platform
-- AICTE-Edunet Foundation AI & Cloud Technology Internship
+
+**Featured Projects:**
+
+1. **CodeSphere** – Real-Time Collaborative Code Editor Platform
+   - Live editing, interactive whiteboard, multi-language execution
+   - [View Project](https://codesphere-dev.vercel.app)
+
+2. **CareConnect** – Integrated Accessibility Platform
+   - IoT-enabled smart home automation with gesture recognition
+   - [View Project](https://careconnect-360.vercel.app)
+
+3. **Maritime Intelligence Platform** – AI-Powered SOF Document Processing
+   - 95% accurate OCR and NLP event extraction
+   - [View Project](https://maritime-intelligence-platform-v1.vercel.app)
+
+4. **HR-GenAI** – AI-Powered Hiring Intelligence Platform
+   - AI interviews with 95% accuracy, Digital DNA Profiles
+   - [View Project](https://hrgen-dev.vercel.app)
+
+5. **SATYA-DRISHTI** – AI-Powered Content Moderation System
+   - 87% accuracy across 12 models, 9 Indian languages
+   - [View Project](https://satyadrishti-dev.vercel.app)
+
+6. **AICTE-Edunet Foundation** – AI & Cloud Technology Internship
 
 ### 📞 Contact
 - GitHub – 30+ repositories
 - LinkedIn – Professional networking
 - Portfolio – Complete case studies
-- LeetCode – 200+ problems solved
+- LeetCode – 250+ problems solved
 - Linktree – All professional links
 - Gmail – Direct communication
 - Telegram – Instant messaging
@@ -313,6 +334,7 @@ Visit the live website: **[Agnix](https://agnix.netlify.app)**
 ---
 
 ## 🌱 Future Enhancements
+
 - 📱 **Progressive Web App** — Offline support and app-like experience
 - 🎬 **Project Case Studies** — Detailed project breakdowns with demos
 - 📝 **Technical Blog** — AI/ML tutorials and insights
@@ -357,6 +379,6 @@ Visit the live website: **[Agnix](https://agnix.netlify.app)**
 
 <div align="center">
 
-**© 2025 Agnix - Abhishek Giri. All Rights Reserved.**
+**© 2026 Agnix - Abhishek Giri. All Rights Reserved.**
 
 </div>
