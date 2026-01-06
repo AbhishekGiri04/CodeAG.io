@@ -196,9 +196,13 @@ Agnix/
 
 ---
 
+<div align="center">
+
 ## 🌐 Live Demo
 
 Visit the live website: **[Agnix](https://agnix.vercel.app)**
+
+</div>
 
 <br>
 
