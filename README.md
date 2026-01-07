@@ -105,11 +105,11 @@ Agnix/
 │   ├── 📄 index.034a5313.css       # 🎨 Compiled CSS styles (cache-busted)
 │   └── 📄 index.b8dab8e6.js        # ⚡ Compiled JavaScript bundle (cache-busted)
 ├── 📂 docs/                        # 📸 Documentation and screenshots
-│   ├── 📄 LoadingPage.png          # ⏳ Loading screen screenshot
-│   ├── 📄 HomePage.png             # 🏠 Homepage screenshot
 │   ├── 📄 AboutPage.png            # ℹ️ About section screenshot
-│   ├── 📄 MyWork.png               # 💼 Work section screenshot
-│   └── 📄 ContactPage.png          # 📞 Contact section screenshot
+│   ├── 📄 ContactPage.png          # 📞 Contact section screenshot
+│   ├── 📄 HomePage.png             # 🏠 Homepage screenshot
+│   ├── 📄 LoadingPage.png          # ⏳ Loading screen screenshot
+│   └── 📄 MyWork.png               # 💼 Work section screenshot
 ├── 📂 draco/                       # 🗜️ 3D model compression library
 │   ├── 📂 gltf/                    # 📦 GLTF-specific decoders
 │   │   ├── 📄 draco_decoder.js     # 🔓 Draco decoder for GLTF
@@ -119,17 +119,17 @@ Agnix/
 │   ├── 📄 draco_decoder.js         # 🔓 Main Draco decoder
 │   ├── 📄 draco_decoder.wasm       # ⚙️ WebAssembly binary
 │   ├── 📄 draco_encoder.js         # 🔐 Main Draco encoder
-│   ├── 📄 draco_wasm_wrapper.js    # 🔄 WASM wrapper utility
-│   └── 📄 README.md                # 📖 Draco documentation
+│   └── 📄 draco_wasm_wrapper.js    # 🔄 WASM wrapper utility
 ├── 📂 models/                      # 🎭 3D models and assets
 │   ├── 📄 Finale Version 16.glb    # 🎨 Main 3D scene model
 │   └── 📄 New Boko.glb             # 🎪 Additional 3D model
 ├── 📂 textures/                    # 🖼️ Texture files and videos
 │   └── 📄 kda.mp4                  # 🎬 Background video texture
-├── 📄 index.html                   # 🏠 Main HTML entry point
-├── 📄 vercel.json                  # ⚙️ Vercel deployment config
 ├── 📄 .gitignore                   # 🚫 Git ignore rules
-└── 📄 README.md                    # 📖 Project documentation
+├── 📄 index.html                   # 🏠 Main HTML entry point
+├── 📄 LICENSE                      # 📜 MIT License file
+├── 📄 README.md                    # 📖 Project documentation
+└── 📄 vercel.json                  # ⚙️ Vercel deployment config
 ```
 
 <br>
@@ -349,6 +349,18 @@ Visit the live website: **[Agnix](https://agnix-dev.vercel.app)**
 <br>
 
 ---  
+
+<div align="center">
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+</div>
+
+<br>
+
+---
 
 ## 📞 Connect With Me  
 
