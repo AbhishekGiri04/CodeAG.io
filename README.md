@@ -350,18 +350,6 @@ Visit the live website: **[Agnix](https://agnix-dev.vercel.app)**
 
 ---  
 
-<div align="center">
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-</div>
-
-<br>
-
----
-
 ## 📞 Connect With Me  
 
 > 💬 *Interested in collaboration or have questions?*  
